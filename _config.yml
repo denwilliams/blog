@@ -11,7 +11,7 @@ title:            "Den's Blog"
 tagline:          'Rants, finds and musings on Technology, Software, Photography and things I like'
 description:      'Rants, finds and musings on Technology, Software, Photography and things I like'
 url:              http://blog.denwilliams.net
-baseurl:          /blog/
+baseurl:          /
 
 author:
   name:           'Den Williams'
