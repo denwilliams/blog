@@ -3,4 +3,4 @@ layout: page
 title: About
 ---
 
-In the interest of not duplicating myself... [see my website](http://denwilliams.net).
+Lesson #101, don't denormalize data already on [see website](http://denwilliams.net).
