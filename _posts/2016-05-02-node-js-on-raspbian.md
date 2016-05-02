@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Node JS on Raspbian (Raspberry Pi)
+tags:
+  - raspberrypi
+  - raspbian
 ---
 
 The following works on [Raspbian Jessie...](https://www.raspberrypi.org/downloads/raspbian/)
