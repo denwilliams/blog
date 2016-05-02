@@ -51,7 +51,7 @@ Then add ` -E` to the end of `ExecStart`
 
 I was also able to get button presses registering using a simple Node script:
 
-```
+```js
 var flic = require('node-flic-buttons');
 var buttons = new flic();
 buttons.on('click', function (clickEvt) {
@@ -60,7 +60,7 @@ buttons.on('click', function (clickEvt) {
 ```
 
 Output:
-```
+```js
 connected
 { deviceId: '80:E4:DA:xx:xx:xx',
   queued: false,
