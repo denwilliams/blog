@@ -1,9 +1,7 @@
 ---
 layout: post
 title: Raspberry Pi Headless Install In a Nutshell
-tags:
-  - raspberrypi
-  - raspbian
+tags: [raspberrypi, raspbian]
 ---
 
 A concise guide for people who don't need trivial things explained...
