@@ -17,3 +17,10 @@ Install the Node JS build tools if required:
 ```
 sudo apt-get install -y build-essential
 ```
+
+Check it's working:
+
+```
+node -v
+npm -v
+```
