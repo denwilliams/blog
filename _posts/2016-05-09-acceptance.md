@@ -42,4 +42,4 @@ So the next time a mistake is made in your company, just take a step back and th
 what your objective is. The mistake has already been made, nothing will change that.
 The most valuable outcome is in reducing future incidents of any kind.
 
-Check out the podcast here: http://hanselminutes.com/526/punishment-driven-development-with-louise-elliott
+Check out the podcast here: [http://hanselminutes.com/526/punishment-driven-development-with-louise-elliott](http://hanselminutes.com/526/punishment-driven-development-with-louise-elliott)
