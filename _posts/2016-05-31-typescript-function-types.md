@@ -10,7 +10,7 @@ I keep having to look this up again, so for all my future references...
 
 *Inline params:*
 
-```cs
+```
 class MyClass {
   myMethod(callback: (x: string) => void) : void {
     callback('hi');
@@ -24,7 +24,7 @@ function myFunction(callback: (x: string) => void) : void {
 
 *As an interface*
 
-```cs
+```
 interface MyCallback {
   (x: string): void;   
 }
@@ -42,7 +42,7 @@ function myFunction(callback: MyCallback) : void {
 
 *With generics*
 
-```cs
+```
 interface Action<T> {
     (arg: T): void;
 }
