@@ -31,3 +31,5 @@ npm -v
 ### Update
 
 Apparently this only works for ARMv7 and later processors, so this doesn't work on Raspberry Pi first generations.
+
+More info on Node installation for Pis here: https://github.com/nfarina/homebridge/wiki/Running-HomeBridge-on-a-Raspberry-Pi#install-node
