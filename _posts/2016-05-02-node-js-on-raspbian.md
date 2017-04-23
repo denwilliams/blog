@@ -27,3 +27,7 @@ Check it's working:
 node -v
 npm -v
 ```
+
+### Update
+
+Apparently this only works for ARMv7 and later processors, so this doesn't work on Raspberry Pi first generations.
