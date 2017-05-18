@@ -1,11 +1,13 @@
 ---
 layout: post
-title: Getting Flic Buttons Running on the Raspberry Pi 3
+title: Getting Flic Buttons Running on the Raspberry Pi 3 - Take 2
 tags:
   - raspberrypi
   - raspbian
   - flic
 ---
+
+**UPDATE** [use the new library](http://blog.denwilliams.net/2017/05/18/flic-hci-on-raspberry-pi/)
 
 The official docs (https://github.com/50ButtonsEach/fliclib-linux-dist) were definitely missing a lot!
 
