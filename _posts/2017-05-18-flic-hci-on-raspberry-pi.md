@@ -23,6 +23,9 @@ Create a systemd start script:
 ```
 sudo nano /etc/systemd/system/flicd.service
 ```
+
+Contents:
+```
 [Unit]
 Description=flicd Service
 After=bluetooth.service
