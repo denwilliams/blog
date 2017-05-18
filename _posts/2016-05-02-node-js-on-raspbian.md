@@ -30,6 +30,27 @@ npm -v
 
 ### Update
 
-Apparently this only works for ARMv7 and later processors, so this doesn't work on Raspberry Pi first generations.
+Apparently this only works for ARMv7 and later processors, so this doesn't work on Raspberry Pi first generations and Zeros.
 
-More info on Node installation for Pis here: https://github.com/nfarina/homebridge/wiki/Running-HomeBridge-on-a-Raspberry-Pi#install-node
+To install on these, first get the URL to the version you want from https://nodejs.org/dist/ (Latest is always https://nodejs.org/dist/latest/).
+
+Download and extract the package, eg:
+
+```
+wget https://nodejs.org/dist/latest/node-v7.10.0-linux-armv6l.tar.xz
+tar -xJf node-v7.10.0-linux-armv6l.tar.xz
+cd node-v7.10.0-linux-armv6l
+```
+
+Copy the files to `/usr/local`:
+
+```
+sudo cp -R * /usr/local/
+```
+
+`/usr/local/bin` should already be in the path so it should just work.
+
+```
+node -v
+npm -v
+```
