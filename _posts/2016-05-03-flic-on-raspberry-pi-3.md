@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting Flic Buttons Running on the Raspberry Pi 3 - Take 2
+title: Getting Flic Buttons Running on the Raspberry Pi 3
 tags:
   - raspberrypi
   - raspbian
