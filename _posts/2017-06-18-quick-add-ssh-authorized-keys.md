@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Raspberry Pi Tweaks
+title: Quickly adding SSH public key to Authorized Hosts
 tags:
   - linux
   - ssh
