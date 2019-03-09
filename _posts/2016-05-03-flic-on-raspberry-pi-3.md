@@ -7,6 +7,8 @@ tags:
   - flic
 ---
 
+**UPDATE** [use the new library](http://blog.denwilliams.net/2017/05/18/flic-hci-on-raspberry-pi/)
+
 The official docs (https://github.com/50ButtonsEach/fliclib-linux-dist) were definitely missing a lot!
 
 I had to `apt-get` install more than was suggested:
