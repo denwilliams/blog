@@ -1,0 +1,26 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+# Permalinks
+permalink:        pretty
+# relative_permalinks: true
+
+# Setup
+title:            "Den's Rant"
+tagline:          'Rants, finds and musings on Technology, Software, Photography and things I like'
+description:      'Rants, finds and musings on Technology, Software, Photography and things I like'
+url:              http://blog.denwilliams.net
+baseurl:          /
+
+author:
+  name:           'Den Williams'
+  url:            http://denwilliams.net
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/denwilliams/blog
