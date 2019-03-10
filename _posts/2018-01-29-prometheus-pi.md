@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Installing Prometheus on a Raspberry Pi
 tags:
   - linux
@@ -7,9 +6,7 @@ tags:
   - raspberrypi
 ---
 
-> Help from: https://www.digitalocean.com/community/tutorials/how-to-install-prometheus-on-ubuntu-16-04
-
-```
+```bash
 sudo useradd --no-create-home --shell /bin/false prometheus
 sudo useradd --no-create-home --shell /bin/false node_exporter
 sudo mkdir /etc/prometheus
@@ -60,7 +57,7 @@ ExecStart=/usr/local/bin/prometheus \
 WantedBy=multi-user.target
 ```
 
-```
+```bash
 sudo nano /etc/systemd/system/node_exporter.service
 ```
 
@@ -80,7 +77,7 @@ ExecStart=/usr/local/bin/node_exporter
 WantedBy=multi-user.target
 ```
 
-```
+```bash
 sudo nano /etc/prometheus/prometheus.yml
 ```
 
@@ -89,21 +86,22 @@ global:
   scrape_interval: 15s
 
 scrape_configs:
-  - job_name: 'prometheus'
+  - job_name: "prometheus"
     scrape_interval: 5s
     static_configs:
-      - targets: ['localhost:9090']
-  - job_name: 'node_exporter'
+      - targets: ["localhost:9090"]
+  - job_name: "node_exporter"
     scrape_interval: 5s
     static_configs:
-      - targets: ['localhost:9100']
+      - targets: ["localhost:9100"]
 ```
 
-
-```
+```bash
 sudo systemctl daemon-reload
 sudo systemctl start prometheus
 sudo systemctl enable prometheus
 sudo systemctl start node_exporter
 sudo systemctl enable node_exporter
 ```
+
+> Help from: https://www.digitalocean.com/community/tutorials/how-to-install-prometheus-on-ubuntu-16-04
