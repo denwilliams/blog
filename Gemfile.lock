@@ -246,6 +246,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages (>= 104)
   jekyll-feed (~> 0.6)
+  jekyll-paginate
   jekyll-theme-clean-blog
   tzinfo-data
 

@@ -23,6 +23,10 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username: denwilliams
 
+paginate: 10  # amount of posts to show per page
+paginate_path: /page:num/
+
+
 # Build settings
 markdown: kramdown
 # highlighter: rouge
