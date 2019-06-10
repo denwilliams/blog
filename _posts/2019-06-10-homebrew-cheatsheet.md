@@ -5,7 +5,7 @@ tags:
   - beer
 ---
 
-Things I've learned along the way...
+Things I've learned along the way for brewing... (for homebrew as in beer, not as in the Mac package manager!)
 
 - The temperature inside the fermenter is usually ~4°C higher than the surface. If you're trying to ferment at 20, the outside will probably need to read 16 while fermentation is taking place! Depends on a lot of factors of course. Once primary fermentation is complete the difference will be less.
 - Before using a new type of yeast read up on it first, especially ideal pitching temperature.
